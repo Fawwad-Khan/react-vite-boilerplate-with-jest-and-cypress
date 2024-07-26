@@ -1,0 +1,23 @@
+@import "assets/styles/mixins.scss";
+
+#root {
+  height: 100dvh;
+
+  display: flex;
+  justify-content: space-around;
+}
+.appContainer {
+  position: relative;
+  max-width: 768px;
+  border: solid #999999;
+  height: 100%;
+  width: 100%;
+}
+
+.appScreen {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
